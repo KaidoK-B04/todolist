@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  font-family: monospace;
+}
+button {
+  margin: 0px;
+  background: none;
+  border: none;
+}
+h1 {
+  color: rgb(3, 111, 102);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid rgb(12, 116, 99);
+  width: 360px;
+  align-items: center;
+  padding-left: 4px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+#inputField {
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 26px;
+  vertical-align: middle;
+  padding-left: .3rem;
+}
+
+#addToDo {
+  border-radius: 0 5px 5px 0;
+  font-size: 47px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(212, 23, 23);
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.paragraph-styling {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+  word-break: normal;
+  color: rgb(8, 70, 68);
+}
+
+.div-styling {
+  display: flex;
+  justify-content: space-between;
+  padding: .6rem .2rem .6rem .6rem;
+  border:2px solid salmon;
+  border-radius: 5px;
+}
+
+.button-styling {
+  width: 30px;
+  height: 30px;
+  color: rgb(250, 128, 114);
+}
+.fa-minus-square-o {
+  font-size: 30px;
+  padding-right: 32px;
+}
+
+
+
+
+
